@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unn-course-calculatemethods-lab"
+version = "0.1.0"
+description = ""
+authors = ["DanYunin <daniilunin2002@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "lab_yunin"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.23.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
